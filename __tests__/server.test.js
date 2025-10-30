@@ -202,7 +202,7 @@ describe("/playlists router", () => {
           id: expect.any(Number),
           playlist_id: playlist.id,
           track_id: 1,
-        }),
+        })
       );
     });
 
